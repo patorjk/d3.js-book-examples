@@ -1,8 +1,7 @@
-
 var svg = d3.select('#graph')
         .append('svg')
-        .style('width', 1024)
-        .style('height', 768);
+        .style('width', '1024px')
+        .style('height', '768px');
 
 svg.append('text')
     .text("A picture!")
